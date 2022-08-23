@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-for char in range(26):
-    print("{:s}".format(chr(char + ord("a"))), end="")
+for alphabets in range(ord('a'), ord('z')+1):
+    print("{:c}".format(alphabets), end="")
