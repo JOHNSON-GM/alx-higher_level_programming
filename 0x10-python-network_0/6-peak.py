@@ -1,11 +1,10 @@
 #!/usr/bin/python3
-"""Finds a peak in a list of unsorted integers"""
+"""Defines a peak-finding algorithm."""
 
 
 def find_peak(list_of_integers):
-    """Defines the peak finding module"""
-
-    if list_of_integers is None or list_of_integers == []:
+    """Return a peak in a list of unsorted integers."""
+    if list_of_integers == []:
         return None
 
     size = len(list_of_integers)

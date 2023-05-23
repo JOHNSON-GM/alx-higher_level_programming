@@ -1,3 +1,3 @@
 #!/bin/bash
-# Sends a GET request to the specified URL, and displays the body of the response.
-curl -sfL "$1" -X GET
+# Get the response body for a given URL for 200 status code responses.
+curl -sL "$1"
